@@ -1,0 +1,128 @@
+:root{
+  --lightColor:#fff;
+  --darkColor: #eaeaea;
+  --buttonColor: #000;
+  --borderColor: #d0d0d0;
+  --headingColor: #000; 
+  --textColor: #656a6f;
+  --circleColor: #21282f;
+}
+
+a {
+  color: var(--textColor) !important;
+  text-decoration: none;
+}
+
+.getintouch {
+  background: var(--lightColor);
+  padding: 10px;
+  width: 60%;
+  margin: auto;
+}
+
+.getintouch h2{
+  text-align: center;
+  margin: 30px;
+  font-family: 'Russo One', sans-serif;
+  color: var(--headingColor);
+}
+
+.getintouch form {
+  /* border: 2px solid coral; */
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background: var(--darkColor);
+  border-radius: 5px;
+  font-family: 'Roboto Mono', monospace;
+  border-color: var(--borderColor);
+  color: var(--headingColor);
+}
+
+.getintouch form label {
+  margin-bottom: 10px;
+}
+
+.getintouch form input {
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border: 1px solid grey;
+  border-radius: 2px;
+  background: var(--lightColor);
+  color: var(--headingColor);
+  width: 100%;
+}
+
+.getintouch form textarea, .getintouch select {
+  margin-bottom: 30px;
+  background: var(--lightColor) !important;
+  padding: 10px;
+  color: var(--textColor);
+}
+
+.getintouch form input[type="submit"] {
+  margin-bottom: 5px;
+  background: var(--buttonColor);
+  color: #fff;
+  
+}
+
+#progressbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 8px;
+  /* background: linear-gradient(to right, #ff5f6d, #ffc371); */
+  background-color: var(--buttonColor);
+  width: 0%;
+  z-index: 100;
+  transition: width 0.2s ease-out;
+}
+
+.search {
+  margin: auto;
+  width: 50%;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.search input {
+  margin: auto;
+  padding: 10px 10px;
+  border: 1px solid grey;
+  border-radius: 2px;
+  background: var(--lightColor);
+  color: var(--headingColor);
+  width: 100%;
+  border-radius: 10px;
+}
+
+.forgot {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.btn1 {
+  padding: 10px;
+  font-size: 20px;
+  width: 50%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1224px) {
+
+  .getintouch {
+      width: 100% !important;
+  }
+  
+  .getintouch form {
+    width: 100% !important;
+  }
+
+}
