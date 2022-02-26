@@ -38,18 +38,19 @@
 
 <div class="about">
   <h2 class="about_heading">Purpose</h2>
-  <p class="about_info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, repellendus!</p>
+  <!-- <p class="about_info"></p> -->
+  <p class="about_info">Note-taking is the process of capturing information from a source or event. </p>
   <div class="about_main">
     <div class="about_first">
-      <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt asperiores natus beatae officiis omnis exercitationem provident nobis quos? Modi, eveniet!</h4>
+      <!-- <h4>Store all notes and important information digitally, usually in a cloud-based storage system.</h4> -->
       <ul>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Store all notes and important information digitally, usually in a cloud-based storage system.</li>
+        <li>Share notes with others instantaneously and in real-time.</li>
+        <li>Type notes on the device of choice just as one would using pen and paper.</li>
       </ul>
     </div>
     <div class="about_second">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus perspiciatis vel laborum porro dolorem vero ullam quam fugiat odit et.</p>
+      <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus perspiciatis vel laborum porro dolorem vero ullam quam fugiat odit et.</p> -->
       <h3>Personalize Theme</h3>
       <div class="color-selector">
         <div class="color1"></div>
@@ -94,26 +95,26 @@
 
 <div class="prices">
     <h2 class="pricing_heading">Pricing</h2>
-    <p class="pricing_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque explicabo voluptatem commodi quia dolor aspernatur. Asperiores quod rem consequuntur eaque.</p>
+    <p class="pricing_info">Get instant access to all features with a Pro membership.</p>
     <div class="price">
         <div class="pricing">
-          <h4 class="price_heading">Individual</h4>
-          <h3 class="price_price"><span class="price_special"><sup>$</sup>0</span><sub>/year</sub></h3>
-          <div class="pricing_details">
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </div>
+          <h4 class="price_heading">Monthly Membership</h4>
+          <h3 class="price_price"><span class="price_special"><sup>$</sup>0</span><sub class="year">/month</sub></h3>
+          <ul class="pricing_details">
+              <li>Instant access to all features</li>
+              <li>Early access to new features</li>
+              <li>Cancel at any time</li>
+          </ul>
           <button class="subscribe"><a href="/register">Subscribe Now</a></button>
         </div>
         <div class="pricing">
-            <h4 class="price_heading">Institute</h4>
-            <h3 class="price_price"><span class="price_special"><sup>$</sup>0</span><sub>/year</sub></h3>
-            <div class="pricing_details">
-                <p>Lorem ipsum dolor sit amet.</p>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <p>Lorem ipsum dolor sit amet.</p>
-            </div>
+            <h4 class="price_heading">Yearly Membership</h4>
+            <h3 class="price_price"><span class="price_special"><sup>$</sup>0</span><sub class="year">/year</sub></h3>
+            <ul class="pricing_details">
+              <li>Instant access to all features</li>
+              <li>Early access to new features</li>
+              <li>Can't Cancel at any time</li>
+            </ul>
             <button class="subscribe"><a href="/register">Subscribe Now</a></button>
         </div>
     </div>

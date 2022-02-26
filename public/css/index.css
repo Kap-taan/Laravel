@@ -198,7 +198,7 @@ body {
 }
 
 .about_heading {
-  font-size: 55px;
+  font-size: 50px;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
   margin-bottom: 20px;
@@ -210,8 +210,10 @@ body {
   text-align: center;
   /* color: #919191; */
   color: var(--textColor);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  font-size: 20px;
   font-family: 'Roboto Mono', monospace;
+  font-weight: normal;
 }
 
 .about_list {
@@ -224,6 +226,8 @@ body {
   /* border: 2px solid blue; */
   padding: 20px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -258,10 +262,15 @@ body {
   font-size: 18px;
   letter-spacing: 0.1rem;
   width: 99%;
+  /* border: 2px solid indigo; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .about_first ul {
-  list-style: none;
+  /* list-style: none; */
   margin-left: 20px;
 }
 
@@ -272,6 +281,10 @@ body {
 .about_first ul li {
   /* margin-bottom: 8px; */
   color: var(--textColor);
+  line-height: 1.2rem;
+  letter-spacing: 0.1rem;
+  font-weight: normal;
+  margin-bottom: 20px;
 }
 
 .about_second {
@@ -433,7 +446,7 @@ body {
 
 .prices {
   /* border: 2px solid gold; */
-  padding: 50px;
+  padding: 100px;
   background-color: var(--darkColor);
 }
 
@@ -451,7 +464,7 @@ body {
   text-align: center;
   font-size: 15px;
   color: var(--textColor);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -487,6 +500,10 @@ body {
   font-size: 39px;
 }
 
+.year {
+  font-size: 20px;
+}
+
 .price_special {
   color: #2487ce !important;
 }
@@ -499,10 +516,10 @@ body {
 .pricing_details {
   /* border: 2px solid yellow; */
   padding: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
-.pricing_details p {
+.pricing_details li {
   margin-bottom: 20px;
   font-family: 'Roboto Mono', monospace;
 }
@@ -526,7 +543,7 @@ footer {
   font-family: 'Source Sans Pro', sans-serif;
   display: flex;
   justify-content: space-between;
-  display: none;
+  /* display: none; */
 }
 
 .icon {
@@ -700,6 +717,7 @@ footer {
 
   .about_first, .about_second {
     border-bottom: 2px solid var(--borderColor);
+    padding: 20px;
   }
 
   .about_info {
